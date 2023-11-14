@@ -87,7 +87,6 @@ var finances = [
   ['Feb-2017', 671099],
 ];
  
-
 let maxProfit = 0
 let minProfit = 0
 let totalChangeInProfits = 0
@@ -95,8 +94,6 @@ let totalProfit = 0
 let maxProfitMonth
 let minProfitMonth
 let totalMonths = finances.length
-
-
 
 for (let i = 0; i<finances.length; i++) {
     if (i > 0) {
@@ -134,7 +131,6 @@ Greatest Decrease in Profits: ${minProfitMonth} ($${minProfit})
 
 `
 )
-
 
 const analisys = document.querySelector(".analisys")
 analisys.innerHTML =
