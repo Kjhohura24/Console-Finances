@@ -90,13 +90,15 @@ var finances = [
 
 let maxProfit = 0
 let minProfit = 0
-let maxProfitMonth
-let minProfitMonth
 let totalChangeInProfits = 0
 let totalProfit = 0
+let maxProfitMonth
+let minProfitMonth
 let totalMonths = finances.length
 
-for (let i = 0; i < finances.length; i++) {
+
+
+for (let i = 0; i<finances.length; i++) {
     if (i > 0) {
         if ((finances[i][1] - finances[i - 1][1]) > maxProfit) {
             maxProfit = (finances[i][1] - finances[i - 1][1])
